@@ -39,7 +39,7 @@ Genre: horror
 
 Platform: pc
 Date: 01.01.2005 - 31.12.2024
-Coop: any
+Coop: true
 Rating:
 Results: 40
 Sort: date_asc

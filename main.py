@@ -38,7 +38,6 @@ GENRE_MAP = {
     "card":        "card",
     "casual":      "casual",
     "educational": "educational",
-    "horror":      "action",
 }
 
 PLATFORM_MAP = {
@@ -66,6 +65,7 @@ def parse_config(config_path: str) -> dict:
 
     cfg = {
         "genres":    [],
+        "tags":      [],
         "platforms": [],
         "date_from": None,
         "date_to":   None,
@@ -88,7 +88,20 @@ def parse_config(config_path: str) -> dict:
             value = value.strip()
 
             if key == "genre":
-                cfg["genres"] = [g.strip().lower() for g in value.split(",") if g.strip()]
+                raw = [g.strip().lower() for g in value.split(",") if g.strip()]
+                valid, unknown = [], []
+                for g in raw:
+                    if g in GENRE_MAP:
+                        valid.append(g)
+                    else:
+                        unknown.append(g)
+                if unknown:
+                    print(f"[WARNING] Unknown genres (skipped): {', '.join(unknown)}")
+                    print(f"          Valid genres: {', '.join(GENRE_MAP.keys())}")
+                cfg["genres"] = valid
+
+            elif key == "tags":
+                cfg["tags"] = [t.strip().lower().replace(" ", "-") for t in value.split(",") if t.strip()]
 
             elif key == "platform":
                 cfg["platforms"] = [p.strip().lower() for p in value.split(",") if p.strip()]
@@ -100,7 +113,7 @@ def parse_config(config_path: str) -> dict:
                         cfg["date_from"] = datetime.strptime(parts[0].strip(), "%d.%m.%Y").strftime("%Y-%m-%d")
                         cfg["date_to"]   = datetime.strptime(parts[1].strip(), "%d.%m.%Y").strftime("%Y-%m-%d")
                     except ValueError as e:
-                        print(f"[WARNING] Invalid data format: {value} -> {e}")
+                        print(f"[WARNING] Invalid date format: {value} -> {e}")
 
             elif key == "coop":
                 val = value.lower()
@@ -128,21 +141,6 @@ def parse_config(config_path: str) -> dict:
                 cfg["sort"] = val if val in VALID_SORTS else "date_asc"
 
     return cfg
-
-
-def resolve_genre_ids(genre_names: list) -> tuple:
-    slugs = []
-    tags  = []
-    for name in genre_names:
-        if name in GENRE_MAP:
-            slug = GENRE_MAP[name]
-            if slug not in slugs:
-                slugs.append(slug)
-            if name == "horror":
-                tags.append("horror")
-        else:
-            slugs.append(name)
-    return slugs, tags
 
 
 def sort_games(games: list, sort_mode: str) -> list:
@@ -175,7 +173,7 @@ def sort_games(games: list, sort_mode: str) -> list:
 
 
 def fetch_games(cfg: dict) -> list:
-    genre_slugs, extra_tags = resolve_genre_ids(cfg["genres"])
+    genre_slugs = [GENRE_MAP[g] for g in cfg["genres"]]
 
     platform_ids = []
     for p in cfg["platforms"]:
@@ -191,37 +189,42 @@ def fetch_games(cfg: dict) -> list:
         coop_filter_tags = SOLO_TAGS
 
     sort_labels = {
-        "date_asc":    "по дате (старые -> новые)",
-        "date_desc":   "по дате (новые -> старые)",
-        "name_asc":    "по названию А->Я",
-        "name_desc":   "по названию Я->А",
-        "rating_asc":  "по рейтингу (низкий -> высокий)",
-        "rating_desc": "по рейтингу (высокий -> низкий)",
-        "none":        "без сортировки",
+        "date_asc":    "by date (old -> new)",
+        "date_desc":   "by date (new -> old)",
+        "name_asc":    "by name A->Z",
+        "name_desc":   "by name Z->A",
+        "rating_asc":  "by rating (low -> high)",
+        "rating_desc": "by rating (high -> low)",
+        "none":        "no sorting",
     }
 
-    print(f"\n Searching for games...")
-    print(f"   Genre:       {', '.join(cfg['genres']) if cfg['genres'] else 'любые'}")
-    print(f"   Platforms:   {', '.join(cfg['platforms']) if cfg['platforms'] else 'любые'}")
-    print(f"   Date:        {cfg['date_from']} -> {cfg['date_to']}")
-    coop_label = {True: "кооп/мульти", False: "одиночные", "any": "любой"}[cfg["coop"]]
-    print(f"   Mode:       {coop_label}")
+    print(f"\nSearching for games...")
+    print(f"  Genres:    {', '.join(cfg['genres']) if cfg['genres'] else '(any)'}")
+    print(f"  Tags:      {', '.join(cfg['tags']) if cfg['tags'] else '(none)'}")
+    print(f"  Platforms: {', '.join(cfg['platforms']) if cfg['platforms'] else '(any)'}")
+    print(f"  Date:      {cfg['date_from']} -> {cfg['date_to']}")
+    coop_label = {True: "co-op/multi", False: "solo only", "any": "any"}[cfg["coop"]]
+    print(f"  Mode:      {coop_label}")
     if cfg["rating"] > 0:
-        print(f"   Rating:     >= {cfg['rating']}")
-    print(f"   Sorting:  {sort_labels.get(cfg['sort'], cfg['sort'])}")
+        print(f"  Rating:    >= {cfg['rating']}")
+    print(f"  Sort:      {sort_labels.get(cfg['sort'], cfg['sort'])}")
     print()
 
-    all_games = []
-    page      = 1
-    page_size = 40
-    fetched   = 0
-    need      = cfg["results"]
+    if not genre_slugs and not cfg["tags"]:
+        print("[WARNING] Neither genres nor tags specified — fetching all games (very broad).")
+
+    seen_slugs = set()
+    all_games  = []
+    page       = 1
+    page_size  = 40
+    fetched    = 0
+    need       = cfg["results"]
 
     while fetched < need:
         params = {
             "key":       RAWG_API_KEY,
             "page":      page,
-            "page_size": min(page_size, need - fetched),
+            "page_size": min(page_size, need - fetched + 20),
         }
 
         if genre_slugs:
@@ -232,16 +235,14 @@ def fetch_games(cfg: dict) -> list:
             params["dates"] = f"{cfg['date_from']},{cfg['date_to']}"
         if cfg["rating"] > 0:
             params["metacritic"] = f"{int(cfg['rating'])},100"
-
-        all_tags = extra_tags[:]
-        if all_tags:
-            params["tags"] = ",".join(all_tags)
+        if cfg["tags"]:
+            params["tags"] = ",".join(cfg["tags"])
 
         try:
             resp = requests.get(f"{RAWG_BASE}/games", params=params, timeout=15)
             resp.raise_for_status()
         except requests.RequestException as e:
-            print(f"[ERROR] Didn't fetch the data: {e}")
+            print(f"[ERROR] Failed to fetch data: {e}")
             break
 
         data    = resp.json()
@@ -251,10 +252,16 @@ def fetch_games(cfg: dict) -> list:
             break
 
         for game in results:
+            slug = game.get("slug", "")
+            if slug in seen_slugs:
+                continue
+            seen_slugs.add(slug)
+
             if coop_filter_tags:
                 game_tags = [t["slug"] for t in game.get("tags", [])]
                 if not any(ct in game_tags for ct in coop_filter_tags):
                     continue
+
             all_games.append(game)
             fetched += 1
             if fetched >= need:
@@ -265,8 +272,7 @@ def fetch_games(cfg: dict) -> list:
 
         page += 1
 
-    all_games = sort_games(all_games, cfg["sort"])
-    return all_games
+    return sort_games(all_games, cfg["sort"])
 
 
 def format_platforms(game: dict) -> str:
@@ -286,7 +292,7 @@ def format_tags_short(game: dict, max_tags: int = 5) -> str:
 
 def print_results(games: list, show_rating: bool = False):
     if not games:
-        print("Games not found by your criteria.")
+        print("No games found matching your criteria.")
         return
 
     print(f"Games found: {len(games)}\n")
@@ -304,16 +310,16 @@ def print_results(games: list, show_rating: bool = False):
         url         = f"https://rawg.io/games/{slug}" if slug else "-"
 
         print(f"[{i:>3}] {name}")
-        print(f"       Date released: {released}")
-        print(f"       Genre:       {genres}")
-        print(f"       Platform(-s):   {platforms}")
-        print(f"       Tag(-s):        {tags_short}")
+        print(f"       Released:  {released}")
+        print(f"       Genres:    {genres}")
+        print(f"       Platforms: {platforms}")
+        print(f"       Tags:      {tags_short}")
 
         if show_rating:
-            mc_str = str(metacritic) if metacritic else "н/д"
-            print(f"       Metacritic:  {mc_str}   |   RAWG: {rawg_rating:.1f}/5")
+            mc_str = str(metacritic) if metacritic else "n/a"
+            print(f"       Metacritic: {mc_str}   |   RAWG: {rawg_rating:.1f}/5")
 
-        print(f"       Link:      {url}")
+        print(f"       URL:       {url}")
         print("-" * 80)
 
 
@@ -336,18 +342,13 @@ def save_results(games: list, out_path: str, show_rating: bool = False):
     with open(out_path, "w", encoding="utf-8") as f:
         json.dump(output, f, ensure_ascii=False, indent=2)
 
-    print(f"\nResults are saved in: {out_path}")
+    print(f"Results saved to: {out_path}")
 
 
 def main():
     script_dir  = os.path.dirname(os.path.abspath(__file__))
     config_path = os.path.join(script_dir, "search_config.txt")
     output_path = os.path.join(script_dir, "results.json")
-
-    if RAWG_API_KEY == "YOUR_RAWG_API_KEY_HERE":
-        print("RAWG_API_KEY is not specified!")
-        print("   Get a free API key on https://rawg.io/apidocs")
-        sys.exit(1)
 
     cfg = parse_config(config_path)
     show_rating = cfg["rating"] > 0
