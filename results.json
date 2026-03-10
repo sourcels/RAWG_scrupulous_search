@@ -1,0 +1,1117 @@
+[
+  {
+    "name": "Left 4 Dead 2",
+    "released": "2009-11-17",
+    "genres": [
+      "Shooter",
+      "Action"
+    ],
+    "platforms": [
+      "PC",
+      "macOS",
+      "Linux",
+      "Xbox 360"
+    ],
+    "tags": [
+      "Singleplayer",
+      "Для одного игрока",
+      "Экшен",
+      "Приключение",
+      "Steam Achievements",
+      "Multiplayer",
+      "Full controller support",
+      "Steam Cloud",
+      "Для нескольких игроков",
+      "steam-trading-cards"
+    ],
+    "url": "https://rawg.io/games/left-4-dead-2"
+  },
+  {
+    "name": "DOOM (2016)",
+    "released": "2016-05-12",
+    "genres": [
+      "Shooter",
+      "Action"
+    ],
+    "platforms": [
+      "PC",
+      "Xbox One",
+      "PlayStation 4",
+      "Nintendo Switch"
+    ],
+    "tags": [
+      "Singleplayer",
+      "Для одного игрока",
+      "Экшен",
+      "Приключение",
+      "Инди",
+      "Multiplayer",
+      "Atmospheric",
+      "Для нескольких игроков",
+      "Атмосфера",
+      "Отличный саундтрек"
+    ],
+    "url": "https://rawg.io/games/doom"
+  },
+  {
+    "name": "BioShock 2",
+    "released": "2010-02-09",
+    "genres": [
+      "Shooter",
+      "Action"
+    ],
+    "platforms": [
+      "PC",
+      "Xbox One",
+      "PlayStation 4",
+      "Nintendo Switch",
+      "macOS",
+      "Xbox 360",
+      "PlayStation 3"
+    ],
+    "tags": [
+      "Singleplayer",
+      "Для одного игрока",
+      "Экшен",
+      "Приключение",
+      "Steam Achievements",
+      "Multiplayer",
+      "Full controller support",
+      "Atmospheric",
+      "Для нескольких игроков",
+      "Атмосфера"
+    ],
+    "url": "https://rawg.io/games/bioshock-2"
+  },
+  {
+    "name": "Half-Life 2: Episode Two",
+    "released": "2007-10-10",
+    "genres": [
+      "Shooter",
+      "Action",
+      "Puzzle"
+    ],
+    "platforms": [
+      "PC",
+      "Android",
+      "macOS",
+      "Linux",
+      "Xbox 360"
+    ],
+    "tags": [
+      "Singleplayer",
+      "Для одного игрока",
+      "Экшен",
+      "Приключение",
+      "Steam Achievements",
+      "Multiplayer",
+      "Steam Cloud",
+      "Atmospheric",
+      "Атмосфера",
+      "Отличный саундтрек"
+    ],
+    "url": "https://rawg.io/games/half-life-2-episode-two"
+  },
+  {
+    "name": "Dark Souls III",
+    "released": "2016-04-11",
+    "genres": [
+      "Action",
+      "RPG"
+    ],
+    "platforms": [
+      "PC",
+      "Xbox One",
+      "PlayStation 4"
+    ],
+    "tags": [
+      "Singleplayer",
+      "Для одного игрока",
+      "Экшен",
+      "Приключение",
+      "Steam Achievements",
+      "Multiplayer",
+      "Full controller support",
+      "Atmospheric",
+      "Для нескольких игроков",
+      "Атмосфера"
+    ],
+    "url": "https://rawg.io/games/dark-souls-iii"
+  },
+  {
+    "name": "Wolfenstein: The New Order",
+    "released": "2014-05-19",
+    "genres": [
+      "Shooter",
+      "Action"
+    ],
+    "platforms": [
+      "PC",
+      "Xbox One",
+      "PlayStation 4",
+      "Xbox 360",
+      "PlayStation 3"
+    ],
+    "tags": [
+      "Singleplayer",
+      "Для одного игрока",
+      "Экшен",
+      "Приключение",
+      "Steam Achievements",
+      "Multiplayer",
+      "Atmospheric",
+      "Атмосфера",
+      "Отличный саундтрек",
+      "Great Soundtrack"
+    ],
+    "url": "https://rawg.io/games/wolfenstein-the-new-order"
+  },
+  {
+    "name": "Spec Ops: The Line",
+    "released": "2012-06-26",
+    "genres": [
+      "Shooter",
+      "Action"
+    ],
+    "platforms": [
+      "PC",
+      "Xbox One",
+      "Xbox 360",
+      "PlayStation 3"
+    ],
+    "tags": [
+      "Singleplayer",
+      "Для одного игрока",
+      "Экшен",
+      "Приключение",
+      "Steam Achievements",
+      "Multiplayer",
+      "Full controller support",
+      "Steam Cloud",
+      "Atmospheric",
+      "Для нескольких игроков"
+    ],
+    "url": "https://rawg.io/games/spec-ops-the-line"
+  },
+  {
+    "name": "Half-Life Deathmatch: Source",
+    "released": "2006-05-01",
+    "genres": [
+      "Action"
+    ],
+    "platforms": [
+      "PC",
+      "macOS",
+      "Linux"
+    ],
+    "tags": [
+      "Экшен",
+      "Приключение",
+      "Multiplayer",
+      "Для нескольких игроков",
+      "Шутер",
+      "От первого лица",
+      "First-Person",
+      "Шедевр",
+      "Sci-fi",
+      "Научная фантастика"
+    ],
+    "url": "https://rawg.io/games/half-life-deathmatch-source"
+  },
+  {
+    "name": "Don't Starve Together",
+    "released": "2016-04-21",
+    "genres": [
+      "Indie",
+      "Action",
+      "Simulation"
+    ],
+    "platforms": [
+      "PC",
+      "Xbox One",
+      "PlayStation 4",
+      "macOS",
+      "Linux"
+    ],
+    "tags": [
+      "Singleplayer",
+      "Для одного игрока",
+      "Экшен",
+      "Приключение",
+      "Инди",
+      "Multiplayer",
+      "Full controller support",
+      "Atmospheric",
+      "Для нескольких игроков",
+      "Атмосфера"
+    ],
+    "url": "https://rawg.io/games/dont-starve-together"
+  },
+  {
+    "name": "Metro: Last Light Redux",
+    "released": "2014-08-25",
+    "genres": [
+      "Shooter",
+      "Action"
+    ],
+    "platforms": [
+      "PC",
+      "Xbox One",
+      "PlayStation 4",
+      "Nintendo Switch",
+      "macOS",
+      "Linux"
+    ],
+    "tags": [
+      "Singleplayer",
+      "Для одного игрока",
+      "Экшен",
+      "Приключение",
+      "Steam Achievements",
+      "Multiplayer",
+      "Full controller support",
+      "Steam Cloud",
+      "Atmospheric",
+      "Для нескольких игроков"
+    ],
+    "url": "https://rawg.io/games/metro-last-light-redux"
+  },
+  {
+    "name": "Metro 2033 Redux",
+    "released": "2014-08-25",
+    "genres": [
+      "Shooter",
+      "Action"
+    ],
+    "platforms": [
+      "PC",
+      "Xbox One",
+      "PlayStation 4",
+      "Nintendo Switch",
+      "macOS",
+      "Linux"
+    ],
+    "tags": [
+      "Singleplayer",
+      "Для одного игрока",
+      "Экшен",
+      "Приключение",
+      "Steam Achievements",
+      "Multiplayer",
+      "Full controller support",
+      "Steam Cloud",
+      "Atmospheric",
+      "Для нескольких игроков"
+    ],
+    "url": "https://rawg.io/games/metro-redux"
+  },
+  {
+    "name": "Left 4 Dead",
+    "released": "2008-11-17",
+    "genres": [
+      "Shooter",
+      "Action"
+    ],
+    "platforms": [
+      "PC",
+      "macOS",
+      "Xbox 360"
+    ],
+    "tags": [
+      "Singleplayer",
+      "Для одного игрока",
+      "Экшен",
+      "Приключение",
+      "Steam Achievements",
+      "Multiplayer",
+      "Full controller support",
+      "Steam Cloud",
+      "Atmospheric",
+      "Для нескольких игроков"
+    ],
+    "url": "https://rawg.io/games/left-4-dead"
+  },
+  {
+    "name": "BioShock 2 Remastered",
+    "released": "2016-09-15",
+    "genres": [
+      "Action",
+      "RPG"
+    ],
+    "platforms": [
+      "PC",
+      "Xbox One",
+      "PlayStation 4",
+      "Nintendo Switch",
+      "macOS"
+    ],
+    "tags": [
+      "Singleplayer",
+      "Для одного игрока",
+      "Экшен",
+      "Приключение",
+      "Steam Achievements",
+      "Multiplayer",
+      "Full controller support",
+      "Steam Cloud",
+      "Atmospheric",
+      "Для нескольких игроков"
+    ],
+    "url": "https://rawg.io/games/bioshock-2-remastered"
+  },
+  {
+    "name": "Mortal Kombat X",
+    "released": "2015-04-07",
+    "genres": [
+      "Action",
+      "Fighting"
+    ],
+    "platforms": [
+      "PC",
+      "Xbox One",
+      "PlayStation 4"
+    ],
+    "tags": [
+      "Singleplayer",
+      "Для одного игрока",
+      "Экшен",
+      "Steam Achievements",
+      "Multiplayer",
+      "Full controller support",
+      "Steam Cloud",
+      "Atmospheric",
+      "Для нескольких игроков",
+      "Атмосфера"
+    ],
+    "url": "https://rawg.io/games/mortal-kombat-x"
+  },
+  {
+    "name": "Resident Evil 7: Biohazard",
+    "released": "2017-01-23",
+    "genres": [
+      "Shooter",
+      "Adventure",
+      "Action"
+    ],
+    "platforms": [
+      "PC",
+      "Xbox One",
+      "PlayStation 4",
+      "Nintendo Switch",
+      "macOS"
+    ],
+    "tags": [
+      "Singleplayer",
+      "Для одного игрока",
+      "Экшен",
+      "Приключение",
+      "Steam Achievements",
+      "Multiplayer",
+      "Full controller support",
+      "Steam Cloud",
+      "Atmospheric",
+      "Для нескольких игроков"
+    ],
+    "url": "https://rawg.io/games/resident-evil-7-biohazard"
+  },
+  {
+    "name": "Unturned",
+    "released": "2014-07-07",
+    "genres": [
+      "Shooter",
+      "Action"
+    ],
+    "platforms": [
+      "PC",
+      "Xbox One",
+      "PlayStation 4",
+      "Nintendo Switch",
+      "macOS",
+      "Linux"
+    ],
+    "tags": [
+      "Singleplayer",
+      "Для одного игрока",
+      "Экшен",
+      "Приключение",
+      "Steam Achievements",
+      "Инди",
+      "Multiplayer",
+      "Steam Cloud",
+      "Atmospheric",
+      "Для нескольких игроков"
+    ],
+    "url": "https://rawg.io/games/unturned"
+  },
+  {
+    "name": "No Man's Sky",
+    "released": "2016-08-09",
+    "genres": [
+      "Adventure",
+      "Action",
+      "RPG",
+      "Simulation",
+      "Indie",
+      "Massively Multiplayer"
+    ],
+    "platforms": [
+      "PC",
+      "PlayStation 5",
+      "Xbox One",
+      "PlayStation 4",
+      "Nintendo Switch"
+    ],
+    "tags": [
+      "Singleplayer",
+      "Для одного игрока",
+      "Экшен",
+      "Приключение",
+      "Steam Achievements",
+      "Инди",
+      "Multiplayer",
+      "Full controller support",
+      "Steam Cloud",
+      "Atmospheric"
+    ],
+    "url": "https://rawg.io/games/no-mans-sky"
+  },
+  {
+    "name": "The Darkness II",
+    "released": "2012-02-07",
+    "genres": [
+      "Action"
+    ],
+    "platforms": [
+      "PC",
+      "Xbox One",
+      "macOS",
+      "Xbox 360",
+      "PlayStation 3"
+    ],
+    "tags": [
+      "Singleplayer",
+      "Для одного игрока",
+      "Экшен",
+      "Приключение",
+      "Steam Achievements",
+      "Multiplayer",
+      "Atmospheric",
+      "Для нескольких игроков",
+      "Атмосфера",
+      "Глубокий сюжет"
+    ],
+    "url": "https://rawg.io/games/the-darkness-ii"
+  },
+  {
+    "name": "DOOM Eternal",
+    "released": "2020-03-20",
+    "genres": [
+      "Shooter",
+      "Action"
+    ],
+    "platforms": [
+      "PC",
+      "PlayStation 5",
+      "Xbox One",
+      "PlayStation 4",
+      "Nintendo Switch"
+    ],
+    "tags": [
+      "Singleplayer",
+      "Для одного игрока",
+      "Экшен",
+      "Приключение",
+      "Multiplayer",
+      "Atmospheric",
+      "Для нескольких игроков",
+      "Атмосфера",
+      "Отличный саундтрек",
+      "Great Soundtrack"
+    ],
+    "url": "https://rawg.io/games/doom-eternal"
+  },
+  {
+    "name": "Metro: Last Light Redux",
+    "released": "2014-08-25",
+    "genres": [
+      "Shooter",
+      "Action"
+    ],
+    "platforms": [
+      "PC",
+      "Xbox One",
+      "PlayStation 4",
+      "Nintendo Switch",
+      "macOS",
+      "Linux"
+    ],
+    "tags": [
+      "Singleplayer",
+      "Для одного игрока",
+      "Экшен",
+      "Приключение",
+      "Steam Achievements",
+      "Multiplayer",
+      "Full controller support",
+      "Steam Cloud",
+      "Atmospheric",
+      "Для нескольких игроков"
+    ],
+    "url": "https://rawg.io/games/metro-last-light-redux"
+  },
+  {
+    "name": "Metro 2033 Redux",
+    "released": "2014-08-25",
+    "genres": [
+      "Shooter",
+      "Action"
+    ],
+    "platforms": [
+      "PC",
+      "Xbox One",
+      "PlayStation 4",
+      "Nintendo Switch",
+      "macOS",
+      "Linux"
+    ],
+    "tags": [
+      "Singleplayer",
+      "Для одного игрока",
+      "Экшен",
+      "Приключение",
+      "Steam Achievements",
+      "Multiplayer",
+      "Full controller support",
+      "Steam Cloud",
+      "Atmospheric",
+      "Для нескольких игроков"
+    ],
+    "url": "https://rawg.io/games/metro-redux"
+  },
+  {
+    "name": "Left 4 Dead",
+    "released": "2008-11-17",
+    "genres": [
+      "Shooter",
+      "Action"
+    ],
+    "platforms": [
+      "PC",
+      "macOS",
+      "Xbox 360"
+    ],
+    "tags": [
+      "Singleplayer",
+      "Для одного игрока",
+      "Экшен",
+      "Приключение",
+      "Steam Achievements",
+      "Multiplayer",
+      "Full controller support",
+      "Steam Cloud",
+      "Atmospheric",
+      "Для нескольких игроков"
+    ],
+    "url": "https://rawg.io/games/left-4-dead"
+  },
+  {
+    "name": "BioShock 2 Remastered",
+    "released": "2016-09-15",
+    "genres": [
+      "Action",
+      "RPG"
+    ],
+    "platforms": [
+      "PC",
+      "Xbox One",
+      "PlayStation 4",
+      "Nintendo Switch",
+      "macOS"
+    ],
+    "tags": [
+      "Singleplayer",
+      "Для одного игрока",
+      "Экшен",
+      "Приключение",
+      "Steam Achievements",
+      "Multiplayer",
+      "Full controller support",
+      "Steam Cloud",
+      "Atmospheric",
+      "Для нескольких игроков"
+    ],
+    "url": "https://rawg.io/games/bioshock-2-remastered"
+  },
+  {
+    "name": "Mortal Kombat X",
+    "released": "2015-04-07",
+    "genres": [
+      "Action",
+      "Fighting"
+    ],
+    "platforms": [
+      "PC",
+      "Xbox One",
+      "PlayStation 4"
+    ],
+    "tags": [
+      "Singleplayer",
+      "Для одного игрока",
+      "Экшен",
+      "Steam Achievements",
+      "Multiplayer",
+      "Full controller support",
+      "Steam Cloud",
+      "Atmospheric",
+      "Для нескольких игроков",
+      "Атмосфера"
+    ],
+    "url": "https://rawg.io/games/mortal-kombat-x"
+  },
+  {
+    "name": "Resident Evil 7: Biohazard",
+    "released": "2017-01-23",
+    "genres": [
+      "Shooter",
+      "Adventure",
+      "Action"
+    ],
+    "platforms": [
+      "PC",
+      "Xbox One",
+      "PlayStation 4",
+      "Nintendo Switch",
+      "macOS"
+    ],
+    "tags": [
+      "Singleplayer",
+      "Для одного игрока",
+      "Экшен",
+      "Приключение",
+      "Steam Achievements",
+      "Multiplayer",
+      "Full controller support",
+      "Steam Cloud",
+      "Atmospheric",
+      "Для нескольких игроков"
+    ],
+    "url": "https://rawg.io/games/resident-evil-7-biohazard"
+  },
+  {
+    "name": "Unturned",
+    "released": "2014-07-07",
+    "genres": [
+      "Shooter",
+      "Action"
+    ],
+    "platforms": [
+      "PC",
+      "Xbox One",
+      "PlayStation 4",
+      "Nintendo Switch",
+      "macOS",
+      "Linux"
+    ],
+    "tags": [
+      "Singleplayer",
+      "Для одного игрока",
+      "Экшен",
+      "Приключение",
+      "Steam Achievements",
+      "Инди",
+      "Multiplayer",
+      "Steam Cloud",
+      "Atmospheric",
+      "Для нескольких игроков"
+    ],
+    "url": "https://rawg.io/games/unturned"
+  },
+  {
+    "name": "No Man's Sky",
+    "released": "2016-08-09",
+    "genres": [
+      "Adventure",
+      "Action",
+      "RPG",
+      "Simulation",
+      "Indie",
+      "Massively Multiplayer"
+    ],
+    "platforms": [
+      "PC",
+      "PlayStation 5",
+      "Xbox One",
+      "PlayStation 4",
+      "Nintendo Switch"
+    ],
+    "tags": [
+      "Singleplayer",
+      "Для одного игрока",
+      "Экшен",
+      "Приключение",
+      "Steam Achievements",
+      "Инди",
+      "Multiplayer",
+      "Full controller support",
+      "Steam Cloud",
+      "Atmospheric"
+    ],
+    "url": "https://rawg.io/games/no-mans-sky"
+  },
+  {
+    "name": "The Darkness II",
+    "released": "2012-02-07",
+    "genres": [
+      "Action"
+    ],
+    "platforms": [
+      "PC",
+      "Xbox One",
+      "macOS",
+      "Xbox 360",
+      "PlayStation 3"
+    ],
+    "tags": [
+      "Singleplayer",
+      "Для одного игрока",
+      "Экшен",
+      "Приключение",
+      "Steam Achievements",
+      "Multiplayer",
+      "Atmospheric",
+      "Для нескольких игроков",
+      "Атмосфера",
+      "Глубокий сюжет"
+    ],
+    "url": "https://rawg.io/games/the-darkness-ii"
+  },
+  {
+    "name": "DOOM Eternal",
+    "released": "2020-03-20",
+    "genres": [
+      "Shooter",
+      "Action"
+    ],
+    "platforms": [
+      "PC",
+      "PlayStation 5",
+      "Xbox One",
+      "PlayStation 4",
+      "Nintendo Switch"
+    ],
+    "tags": [
+      "Singleplayer",
+      "Для одного игрока",
+      "Экшен",
+      "Приключение",
+      "Multiplayer",
+      "Atmospheric",
+      "Для нескольких игроков",
+      "Атмосфера",
+      "Отличный саундтрек",
+      "Great Soundtrack"
+    ],
+    "url": "https://rawg.io/games/doom-eternal"
+  },
+  {
+    "name": "Killing Floor",
+    "released": "2009-05-14",
+    "genres": [
+      "Action"
+    ],
+    "platforms": [
+      "PC",
+      "macOS",
+      "Linux"
+    ],
+    "tags": [
+      "Singleplayer",
+      "Для одного игрока",
+      "Экшен",
+      "Приключение",
+      "Steam Achievements",
+      "Multiplayer",
+      "Для нескольких игроков",
+      "steam-trading-cards",
+      "Отличный саундтрек",
+      "Great Soundtrack"
+    ],
+    "url": "https://rawg.io/games/killing-floor"
+  },
+  {
+    "name": "Quake Champions",
+    "released": "2017-08-22",
+    "genres": [
+      "Shooter",
+      "Action"
+    ],
+    "platforms": [
+      "PC"
+    ],
+    "tags": [
+      "Для одного игрока",
+      "Экшен",
+      "Steam Achievements",
+      "Multiplayer",
+      "Для нескольких игроков",
+      "Шутер",
+      "От первого лица",
+      "First-Person",
+      "Научная фантастика",
+      "Horror"
+    ],
+    "url": "https://rawg.io/games/quake-champions"
+  },
+  {
+    "name": "Don't Starve Together",
+    "released": "2016-04-21",
+    "genres": [
+      "Indie",
+      "Action",
+      "Simulation"
+    ],
+    "platforms": [
+      "PC",
+      "Xbox One",
+      "PlayStation 4",
+      "macOS",
+      "Linux"
+    ],
+    "tags": [
+      "Singleplayer",
+      "Для одного игрока",
+      "Экшен",
+      "Приключение",
+      "Инди",
+      "Multiplayer",
+      "Full controller support",
+      "Atmospheric",
+      "Для нескольких игроков",
+      "Атмосфера"
+    ],
+    "url": "https://rawg.io/games/dont-starve-together"
+  },
+  {
+    "name": "Metro: Last Light Redux",
+    "released": "2014-08-25",
+    "genres": [
+      "Shooter",
+      "Action"
+    ],
+    "platforms": [
+      "PC",
+      "Xbox One",
+      "PlayStation 4",
+      "Nintendo Switch",
+      "macOS",
+      "Linux"
+    ],
+    "tags": [
+      "Singleplayer",
+      "Для одного игрока",
+      "Экшен",
+      "Приключение",
+      "Steam Achievements",
+      "Multiplayer",
+      "Full controller support",
+      "Steam Cloud",
+      "Atmospheric",
+      "Для нескольких игроков"
+    ],
+    "url": "https://rawg.io/games/metro-last-light-redux"
+  },
+  {
+    "name": "Metro 2033 Redux",
+    "released": "2014-08-25",
+    "genres": [
+      "Shooter",
+      "Action"
+    ],
+    "platforms": [
+      "PC",
+      "Xbox One",
+      "PlayStation 4",
+      "Nintendo Switch",
+      "macOS",
+      "Linux"
+    ],
+    "tags": [
+      "Singleplayer",
+      "Для одного игрока",
+      "Экшен",
+      "Приключение",
+      "Steam Achievements",
+      "Multiplayer",
+      "Full controller support",
+      "Steam Cloud",
+      "Atmospheric",
+      "Для нескольких игроков"
+    ],
+    "url": "https://rawg.io/games/metro-redux"
+  },
+  {
+    "name": "Left 4 Dead",
+    "released": "2008-11-17",
+    "genres": [
+      "Shooter",
+      "Action"
+    ],
+    "platforms": [
+      "PC",
+      "macOS",
+      "Xbox 360"
+    ],
+    "tags": [
+      "Singleplayer",
+      "Для одного игрока",
+      "Экшен",
+      "Приключение",
+      "Steam Achievements",
+      "Multiplayer",
+      "Full controller support",
+      "Steam Cloud",
+      "Atmospheric",
+      "Для нескольких игроков"
+    ],
+    "url": "https://rawg.io/games/left-4-dead"
+  },
+  {
+    "name": "BioShock 2 Remastered",
+    "released": "2016-09-15",
+    "genres": [
+      "Action",
+      "RPG"
+    ],
+    "platforms": [
+      "PC",
+      "Xbox One",
+      "PlayStation 4",
+      "Nintendo Switch",
+      "macOS"
+    ],
+    "tags": [
+      "Singleplayer",
+      "Для одного игрока",
+      "Экшен",
+      "Приключение",
+      "Steam Achievements",
+      "Multiplayer",
+      "Full controller support",
+      "Steam Cloud",
+      "Atmospheric",
+      "Для нескольких игроков"
+    ],
+    "url": "https://rawg.io/games/bioshock-2-remastered"
+  },
+  {
+    "name": "Mortal Kombat X",
+    "released": "2015-04-07",
+    "genres": [
+      "Action",
+      "Fighting"
+    ],
+    "platforms": [
+      "PC",
+      "Xbox One",
+      "PlayStation 4"
+    ],
+    "tags": [
+      "Singleplayer",
+      "Для одного игрока",
+      "Экшен",
+      "Steam Achievements",
+      "Multiplayer",
+      "Full controller support",
+      "Steam Cloud",
+      "Atmospheric",
+      "Для нескольких игроков",
+      "Атмосфера"
+    ],
+    "url": "https://rawg.io/games/mortal-kombat-x"
+  },
+  {
+    "name": "Half-Life 2: Episode Two",
+    "released": "2007-10-10",
+    "genres": [
+      "Shooter",
+      "Action",
+      "Puzzle"
+    ],
+    "platforms": [
+      "PC",
+      "Android",
+      "macOS",
+      "Linux",
+      "Xbox 360"
+    ],
+    "tags": [
+      "Singleplayer",
+      "Для одного игрока",
+      "Экшен",
+      "Приключение",
+      "Steam Achievements",
+      "Multiplayer",
+      "Steam Cloud",
+      "Atmospheric",
+      "Атмосфера",
+      "Отличный саундтрек"
+    ],
+    "url": "https://rawg.io/games/half-life-2-episode-two"
+  },
+  {
+    "name": "Dark Souls III",
+    "released": "2016-04-11",
+    "genres": [
+      "Action",
+      "RPG"
+    ],
+    "platforms": [
+      "PC",
+      "Xbox One",
+      "PlayStation 4"
+    ],
+    "tags": [
+      "Singleplayer",
+      "Для одного игрока",
+      "Экшен",
+      "Приключение",
+      "Steam Achievements",
+      "Multiplayer",
+      "Full controller support",
+      "Atmospheric",
+      "Для нескольких игроков",
+      "Атмосфера"
+    ],
+    "url": "https://rawg.io/games/dark-souls-iii"
+  },
+  {
+    "name": "BioShock 2",
+    "released": "2010-02-09",
+    "genres": [
+      "Shooter",
+      "Action"
+    ],
+    "platforms": [
+      "PC",
+      "Xbox One",
+      "PlayStation 4",
+      "Nintendo Switch",
+      "macOS",
+      "Xbox 360",
+      "PlayStation 3"
+    ],
+    "tags": [
+      "Singleplayer",
+      "Для одного игрока",
+      "Экшен",
+      "Приключение",
+      "Steam Achievements",
+      "Multiplayer",
+      "Full controller support",
+      "Atmospheric",
+      "Для нескольких игроков",
+      "Атмосфера"
+    ],
+    "url": "https://rawg.io/games/bioshock-2"
+  }
+]

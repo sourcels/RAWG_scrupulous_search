@@ -1,0 +1,45 @@
+# ============================================================
+# КОНФИГ ДЛЯ ПОИСКА ИГР
+# ============================================================
+# Заполни поля ниже и запусти game_search.py
+#
+# ЖАНРЫ (Genre) — одно или несколько через запятую:
+#   action, adventure, rpg, strategy, puzzle, platformer,
+#   racing, sports, simulation, shooter, indie, arcade,
+#   fighting, family, card, casual, educational, horror
+#
+# ПЛАТФОРМЫ (Platform) — одна или несколько через запятую:
+#   pc, playstation5, playstation4, xbox-one, xbox-series-x,
+#   nintendo-switch, ios, android, macos, linux
+#
+# ДАТА (Date) — формат: dd.mm.yyyy - dd.mm.yyyy
+#
+# КООП / МУЛЬТИПЛЕЕР (Coop) — true или false
+#   true  = только игры с кооп/мультиплеером
+#   false = только одиночные игры
+#   any   = без фильтра по режиму
+#
+# РЕЙТИНГ (Rating) — минимальный рейтинг от 0 до 100
+#   Оставь пустым или 0 — без фильтра по рейтингу
+#
+# РЕЗУЛЬТАТЫ (Results) — сколько игр вывести (макс. 200)
+#
+# СОРТИРОВКА (Sort) — порядок игр в результатах:
+#   date_asc  = по дате выхода, сначала старые  ⬆
+#   date_desc = по дате выхода, сначала новые   ⬇
+#   name_asc  = по названию А→Я
+#   name_desc = по названию Я→А
+#   rating_asc  = по рейтингу, сначала низкий
+#   rating_desc = по рейтингу, сначала высокий
+#   none      = без сортировки (как отдал API)
+#
+# ============================================================
+
+Genre: horror
+
+Platform: pc
+Date: 01.01.2005 - 31.12.2024
+Coop: any
+Rating:
+Results: 40
+Sort: date_asc
